@@ -1,0 +1,41 @@
+.header {
+    background-color: #fff;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: block;
+        color: #69b9ff;
+        font-size: 25px;
+        line-height: 1;
+        letter-spacing: 4px;
+        padding: 16px 0;
+        text-transform: uppercase;
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+        align-items: center;
+
+        &-item.active &-link,
+        &-link:hover {
+            color: #0082f3;
+            transition: .3s ease-in-out;
+        }
+
+        &-link {
+            display: block;
+            color: #676770;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            padding: 20px;
+            transition: .3s ease-in-out;
+        }
+    }
+}
