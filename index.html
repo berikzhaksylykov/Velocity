@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>VELOCITY</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__inner">
+                    <a class="header__logo" href="/">velocity</a>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__list-item active">
+                                <a class="nav__list-link" href="/">Home</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="#url">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <div class="intro__container container">
+                    <div class="intro__inner">
+                        <h1 class="intro__title title">This is Velocity</h1>
+                        <div class="intro__subtitle subtitle">A FREE REPSONSIVE TEMPLATE BY WEBFLOW</div>
+                        <div class="intro__btns">
+                            <a class="intro__btn intro__btn-1 btn" href="#url">sign up</a>
+                            <a class="intro__btn intro__btn-2 btn" href="#url">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__container container">
+                    <div class="about__inner">
+                        <h2 class="about__title title">What we do</h2>
+                        <div class="about__subtitle subtitle">THIS IS SOME TEXT INSIDE OF A DIV BLOCK.</div>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <div class="about__item-icon">
+                                    <svg>
+                                        <use href="./svg/sprite.svg#watch"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="about__item-title title">graphic design</h3>
+                                <p class="about__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.</p>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__item-icon">
+                                    <svg>
+                                        <use href="./svg/sprite.svg#minimize"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="about__item-title title">awesome code</h3>
+                                <p class="about__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.</p>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__item-icon">
+                                    <svg>
+                                        <use href="./svg/sprite.svg#archive"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="about__item-title title">free template</h3>
+                                <p class="about__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="services__container container">
+                    <div class="services__inner">
+                        <h2 class="services__title title">Services</h2>
+                        <div class="services__subtitle subtitle">THIS IS SOME TEXT INSIDE OF A DIV BLOCK.</div>
+                        <ul class="services__list">
+                            <li class="services__item">
+                                <div class="services__item-image">
+                                    <img src="./img/services-1.jpeg" alt="img">
+                                </div>
+                                <h3 class="services__item-title title">SERVICES ONE</h3>
+                                <p class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Suspendisse varius.</p>
+                                <a class="services__item-btn btn" href="#url">learn more</a>
+                            </li>
+                            <li class="services__item">
+                                <div class="services__item-image">
+                                    <img src="./img/services-2.jpeg" alt="img">
+                                </div>
+                                <h3 class="services__item-title title">SERVICES TWO</h3>
+                                <p class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Suspendisse varius.</p>
+                                <a class="services__item-btn btn" href="#url">learn more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="tab">
+                <div class="tab__container container">
+                    <div class="tab__inner">
+                        <h2 class="tab__title title">Tab Section</h2>
+                        <div class="tab__subtitle subtitle">THIS IS SOME TEXT INSIDE OF A DIV BLOCK.</div>
+                        <div class="tab__btns">
+                            <button class="tab__btn btn" onclick="openTab(event, 'Tab-1')" id="defaultOpen">
+                                tab button 1
+                            </button>
+                            <button class="tab__btn btn" onclick="openTab(event, 'Tab-2')">
+                                tab button 2
+                            </button>
+                            <button class="tab__btn btn" onclick="openTab(event, 'Tab-3')">
+                                tab button 3
+                            </button>
+                        </div>
+                        <div class="tab__content" id="Tab-1">
+                            <div class="tab__content-image">
+                                <img src="./img/tab-1.jpeg" alt="img">
+                            </div>
+                            <h3 class="tab__content-title">Some Title Here</h3>
+                            <p class="tab__content-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                                <br>
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat.
+                                <br>
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                                tristique posuere.
+                            </p>
+                        </div>
+                        <div class="tab__content" id="Tab-2">
+                            <div class="tab__content-image">
+                                <img src="./img/tab-2.jpeg" alt="img">
+                            </div>
+                            <h3 class="tab__content-title">Heading</h3>
+                            <p class="tab__content-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                                <br>
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat.
+                                <br>
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                                tristique posuere.
+                            </p>
+                        </div>
+                        <div class="tab__content" id="Tab-3">
+                            <div class="tab__content-image">
+                                <img src="./img/tab-3.jpeg" alt="img">
+                            </div>
+                            <h3 class="tab__content-title">Heading</h3>
+                            <p class="tab__content-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                                <br>
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat.
+                                <br>
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                                tristique posuere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__top-container container">
+                    <div class="footer__top-inner">
+                        <div class="footer__about">
+                            <h3 class="footer__about-title footer__title">About Velocity</h3>
+                            <p class="footer__about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse
+                                varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                interdum nulla, ut commodo diam libero vitae erat.</p>
+                        </div>
+                        <div class="footer__links">
+                            <h3 class="footer__links-title footer__title">Useful Links</h3>
+                            <ul class="footer__links-list">
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#url">
+                                        Phasellus gravida semper nisi
+                                    </a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#url">
+                                        Suspendisse nisl elit
+                                    </a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#url">
+                                        Dellentesque habitant morbi
+                                    </a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#url">
+                                        Etiam sollicitudin ipsum
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__socials">
+                            <h3 class="footer__socials-title footer__title">Social</h3>
+                            <ul class="footer__socials-list">
+                                <li class="footer__socials-item">
+                                    <div class="footer__socials-icon">
+                                        <svg>
+                                            <use href="./svg/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </div>
+                                    <a class="footer__socials-link" href="#url">Twitter</a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <div class="footer__socials-icon">
+                                        <svg>
+                                            <use href="./svg/sprite.svg#facebook"></use>
+                                        </svg>
+                                    </div>
+                                    <a class="footer__socials-link" href="#url">Facebook</a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <div class="footer__socials-icon">
+                                        <svg>
+                                            <use href="./svg/sprite.svg#pinterest"></use>
+                                        </svg>
+                                    </div>
+                                    <a class="footer__socials-link" href="#url">Pinterest</a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <div class="footer__socials-icon">
+                                        <svg>
+                                            <use href="./svg/sprite.svg#google"></use>
+                                        </svg>
+                                    </div>
+                                    <a class="footer__socials-link" href="#url">Google</a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <div class="footer__socials-icon">
+                                        <svg>
+                                            <use href="./svg/sprite.svg#webflow"></use>
+                                        </svg>
+                                    </div>
+                                    <a class="footer__socials-link" href="#url">Webflow</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-container container">
+                    <p class="footer__bottom-text">
+                        Copyright Velocity Inc. Made in Webflow.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
